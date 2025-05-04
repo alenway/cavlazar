@@ -1,7 +1,9 @@
+import Navigation from "./customer/components/Navigation/Navigation";
+
 function App() {
     return (
         <>
-            <h1>hello nitin</h1>
+            <Navigation />
         </>
     );
 }
