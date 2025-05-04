@@ -16,8 +16,8 @@ const items = mainCarouselData.map((item, index) => (
 const MainCarousel = () => (
     <AliceCarousel
         items={items}
-        controlsStrategy="alternate"
         autoPlay
+        autoPlayInterval={1500}
         infinite
         disableDotsControls={false}
         disableButtonsControls={true}
